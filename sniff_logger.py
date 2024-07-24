@@ -8,7 +8,7 @@ line_length = os.get_terminal_size().columns
 
 def read_addresses():
   # Read the JSON data from the file
-  with open(".\\addresses.json", "r") as file:
+  with open("addresses.json", "r") as file:
     return json.load(file)
 
 all_addrs = read_addresses()
